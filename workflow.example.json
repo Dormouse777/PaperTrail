@@ -1,0 +1,41 @@
+{
+  "scope": "unified",
+  "workflow": {
+    "download_dir": "data/papers",
+    "bundle_root": "data/bundles",
+    "prepared_root": "data/prepared",
+    "tokenizer_json": null,
+    "transport_base_url": "http://127.0.0.1:9380/api/v1",
+    "credential_source": "environment",
+    "embedding_enabled": false
+  },
+  "material_targets": {
+    "main_pdf": {
+      "dataset_id": "replace-with-main-dataset-id",
+      "base_url": "http://127.0.0.1:9380/api/v1",
+      "state_dir": "data/state/main"
+    },
+    "supplement": {
+      "dataset_id": "replace-with-supplement-dataset-id",
+      "base_url": "http://127.0.0.1:9380/api/v1",
+      "state_dir": "data/state/supplement"
+    }
+  },
+  "sources": [
+    {
+      "name": "main",
+      "confirmed": false,
+      "dataset_id": "replace-with-main-dataset-id",
+      "base_url": "http://127.0.0.1:9380/api/v1",
+      "state_dir": "data/state/main"
+    },
+    {
+      "name": "supplement",
+      "confirmed": false,
+      "dataset_id": "replace-with-supplement-dataset-id",
+      "base_url": "http://127.0.0.1:9380/api/v1",
+      "state_dir": "data/state/supplement"
+    }
+  ],
+  "bundle_paths": []
+}

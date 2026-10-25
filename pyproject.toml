@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77,<85", "wheel>=0.45,<1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "papertrail-literature"
+version = "0.1.0a4"
+description = "PaperTrail: traceable literature acquisition, structured chunks and evidence checks"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pypdf==6.10.0"]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.optional-dependencies]
+tokenizer = ["tokenizers==0.23.2"]
+
+[project.scripts]
+papertrail = "papertrail.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["papertrail*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+"papertrail" = ["fixtures/*.json", "fixtures/*.pdf"]
+"papertrail._legacy.Paperdownload" = ["publisher_registry.json", "workflow.example.json"]

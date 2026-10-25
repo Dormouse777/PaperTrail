@@ -1,0 +1,139 @@
+{
+  "document_id": "synthetic-fixture",
+  "title": "Synthetic literature workflow fixture",
+  "fixture_only": true,
+  "provenance": {
+    "sourcePdf": "synthetic.pdf",
+    "sourcePdfSha256": "61cd95c4243056c1b86376bda31a8367dda62a2d7f10aa0749f30752b0684322",
+    "parser_schema": "hand_authored_fixture",
+    "parser_schema_version": "1"
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "printed_page_number": "1"
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "fixture-b0",
+      "type": "title",
+      "source_type": "doc_title",
+      "text": "Synthetic literature workflow fixture",
+      "order": 0,
+      "heading_level": null,
+      "page_index": 0,
+      "bbox": [
+        50,
+        40,
+        560,
+        58
+      ],
+      "content_items": [],
+      "asset_paths": []
+    },
+    {
+      "block_id": "fixture-b1",
+      "type": "heading",
+      "source_type": "paragraph_title",
+      "text": "Methods",
+      "order": 1,
+      "heading_level": 1,
+      "page_index": 0,
+      "bbox": [
+        50,
+        60,
+        560,
+        78
+      ],
+      "content_items": [],
+      "asset_paths": []
+    },
+    {
+      "block_id": "fixture-b2",
+      "type": "paragraph",
+      "source_type": "text",
+      "text": "This is a synthetic fixture, not scientific evidence.",
+      "order": 2,
+      "heading_level": null,
+      "page_index": 0,
+      "bbox": [
+        50,
+        80,
+        560,
+        98
+      ],
+      "content_items": [],
+      "asset_paths": []
+    },
+    {
+      "block_id": "fixture-b3",
+      "type": "heading",
+      "source_type": "paragraph_title",
+      "text": "Results",
+      "order": 3,
+      "heading_level": 1,
+      "page_index": 0,
+      "bbox": [
+        50,
+        100,
+        560,
+        118
+      ],
+      "content_items": [],
+      "asset_paths": []
+    },
+    {
+      "block_id": "fixture-b4",
+      "type": "paragraph",
+      "source_type": "text",
+      "text": "Section boundaries and source locations are preserved.",
+      "order": 4,
+      "heading_level": null,
+      "page_index": 0,
+      "bbox": [
+        50,
+        120,
+        560,
+        138
+      ],
+      "content_items": [],
+      "asset_paths": []
+    },
+    {
+      "block_id": "fixture-b5",
+      "type": "heading",
+      "source_type": "paragraph_title",
+      "text": "References",
+      "order": 5,
+      "heading_level": 1,
+      "page_index": 0,
+      "bbox": [
+        50,
+        140,
+        560,
+        158
+      ],
+      "content_items": [],
+      "asset_paths": []
+    },
+    {
+      "block_id": "fixture-b6",
+      "type": "paragraph",
+      "source_type": "text",
+      "text": "This bibliography line is excluded from default chunks.",
+      "order": 6,
+      "heading_level": null,
+      "page_index": 0,
+      "bbox": [
+        50,
+        160,
+        560,
+        178
+      ],
+      "content_items": [],
+      "asset_paths": []
+    }
+  ],
+  "sections": []
+}

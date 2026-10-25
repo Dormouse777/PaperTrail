@@ -1,0 +1,583 @@
+{
+  "schema": "public-candidate-export/v1",
+  "publication_ready": false,
+  "source_policy": "exact copies; originals remain authoritative until publication",
+  "files": [
+    {
+      "path": "src/papertrail/_legacy/DIFY/build_code_nodes.py",
+      "source": "DIFY/build_code_nodes.py",
+      "bytes": 2024,
+      "sha256": "dbb16a17252c27f60326f47235c75e31784ecbe07f7283a86845ac9b92a2246b"
+    },
+    {
+      "path": "src/papertrail/_legacy/DIFY/citation_audit.py",
+      "source": "DIFY/citation_audit.py",
+      "bytes": 12433,
+      "sha256": "b6f51e0f1a001aa98e2c12cb7701b4fcf597067c860677c5ad5d0219f110e1fe"
+    },
+    {
+      "path": "src/papertrail/_legacy/DIFY/evidence_gate.py",
+      "source": "DIFY/evidence_gate.py",
+      "bytes": 9584,
+      "sha256": "d5d5a296b4d9ac1bb29d79bcd41e9182f11b3b7c9de51d092dd18ab277baed17"
+    },
+    {
+      "path": "src/papertrail/_legacy/DIFY/evidence_source_metadata.py",
+      "source": "DIFY/evidence_source_metadata.py",
+      "bytes": 5472,
+      "sha256": "a2f39ffa317422b00a6e14bfd4f16a3587e82f3f8905f24ff0d2b2df2692209c"
+    },
+    {
+      "path": "src/papertrail/_legacy/DIFY/grouped_evidence_gate.py",
+      "source": "DIFY/grouped_evidence_gate.py",
+      "bytes": 517,
+      "sha256": "6b5509e4114ae0a144432ac4abd5aeb5c426c5adc9e18fef958b3906133e05bb"
+    },
+    {
+      "path": "src/papertrail/_legacy/DIFY/numeric_source_audit.py",
+      "source": "DIFY/numeric_source_audit.py",
+      "bytes": 5515,
+      "sha256": "ef95e3364e6da984b5bd67327a8e81e921bfb0feb54795c6938a42e6fe0493b7"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/acquisition_gateway.py",
+      "source": "Paperdownload/acquisition_gateway.py",
+      "bytes": 29906,
+      "sha256": "6979f575df7626c0741023f8b2839c10e9272302d15f1192c96622959ebe1a95"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/download_guard.py",
+      "source": "Paperdownload/download_guard.py",
+      "bytes": 11931,
+      "sha256": "1ff734e8d0a624fb20e48bdfe0a5e8db3953eae4d6af7fb5811f8f3676e88867"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/download_jobs.py",
+      "source": "Paperdownload/download_jobs.py",
+      "bytes": 26174,
+      "sha256": "8b173316df36e435456254775259d41b587a1f945c2a92e3ca811d31229fcd35"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/download_ledger.py",
+      "source": "Paperdownload/download_ledger.py",
+      "bytes": 11646,
+      "sha256": "808f522c9db42a5c3626b6f5712e715e044c63006a1e0967e9ea9e6fb226c292"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/download_plan.py",
+      "source": "Paperdownload/download_plan.py",
+      "bytes": 4364,
+      "sha256": "c5610290e06afe223736c678a4d188128f138750d0302d404cad2d7930a39124"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/existing_pdf_preflight.py",
+      "source": "Paperdownload/existing_pdf_preflight.py",
+      "bytes": 2683,
+      "sha256": "368b32bacef5ea4a9b6058bec21555f8f7795fd1f9570749d2f0872c344784a1"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/fetch_by_doi.py",
+      "source": "Paperdownload/fetch_by_doi.py",
+      "bytes": 13832,
+      "sha256": "2fbafdc13fa1d4daca379a3fc93f4cbed7435c2f8d8dac41b791968aec510d7e"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/fetch_fulltext_by_doi.py",
+      "source": "Paperdownload/fetch_fulltext_by_doi.py",
+      "bytes": 11534,
+      "sha256": "fed0632822418cf1ec3584cb4bf1bb4999c387c9c19e1f20b7076491ade5f2f1"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/fulltext_candidates.py",
+      "source": "Paperdownload/fulltext_candidates.py",
+      "bytes": 9085,
+      "sha256": "3930562a5e07e99ea47ffda8ebd2e905a31664888a1ad1e6877a44262320b5e6"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/fulltext_download.py",
+      "source": "Paperdownload/fulltext_download.py",
+      "bytes": 9129,
+      "sha256": "8bf3c5c9a24b7be672dc45a1ddcf6e97542ad139ef9955ee94e1c485ebcd2e1f"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/fulltext_url.py",
+      "source": "Paperdownload/fulltext_url.py",
+      "bytes": 2203,
+      "sha256": "44e3e82cd24a69f06afb1db0e788fe6c014c97c31a5f164775b087fa3583b1b7"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/literature_access.py",
+      "source": "Paperdownload/literature_access.py",
+      "bytes": 15781,
+      "sha256": "21a988c13199e8ef8837c62592f0b5c804e6f50a88201fc96a7b8cbbfd834437"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/paper_bundle.py",
+      "source": "Paperdownload/paper_bundle.py",
+      "bytes": 9896,
+      "sha256": "457c0f7ba20fad23e9d0233da7fff57e8e63e1505084cde6e0ecaec3d5cc9be2"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/paper_downloader.py",
+      "source": "Paperdownload/paper_downloader.py",
+      "bytes": 56395,
+      "sha256": "4cc6d7662182c15b9dbf4de9a1c68fe9ec916741448dd68f71f5f2ec2f90f46b"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/paper_source_cleanup.py",
+      "source": "Paperdownload/paper_source_cleanup.py",
+      "bytes": 13797,
+      "sha256": "782f602c8680e05e1010fb6583f0a9dcc16e411e996691999ccf8584a2f8175c"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/paper_supplements.py",
+      "source": "Paperdownload/paper_supplements.py",
+      "bytes": 64525,
+      "sha256": "554e6fc12ae9436bb19f6e28a3823e8977636d503f35426d55189d598c912115"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/pdf_article_identity.py",
+      "source": "Paperdownload/pdf_article_identity.py",
+      "bytes": 4174,
+      "sha256": "1a0486570e0f4fa586ed7026e5d93663bdf5cf33d497711f1472b44a47b4bd60"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/pmc_open_data_metadata.py",
+      "source": "Paperdownload/pmc_open_data_metadata.py",
+      "bytes": 7421,
+      "sha256": "611d26b7158525c282745a892c08073198b9ec4685a7e9a68de250670ee2e103"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/process_lock.py",
+      "source": "Paperdownload/process_lock.py",
+      "bytes": 2510,
+      "sha256": "aee56c727eeee2bc69c3a8f8014e8c0752f9ef79d5ac51a4305fcf6873e90fa6"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publisher_filing_bridge.py",
+      "source": "Paperdownload/publisher_filing_bridge.py",
+      "bytes": 20084,
+      "sha256": "43f946cabba7f2c02d481938f170455a3892094cb719089b9cf66ca937c6796c"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publisher_metadata.py",
+      "source": "Paperdownload/publisher_metadata.py",
+      "bytes": 7377,
+      "sha256": "3e48e342244ae6986a4971b0fcfd1b0ee2a25cf86c0957b17ae6edc30cdd700e"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publisher_oa_transport.py",
+      "source": "Paperdownload/publisher_oa_transport.py",
+      "bytes": 4374,
+      "sha256": "d457d001c7f3771cc06c01618c4dc5496d26ac9b5de7cad2ffb8dcabbe48d246"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publisher_registry.json",
+      "source": "Paperdownload/publisher_registry.json",
+      "bytes": 3126,
+      "sha256": "df6efecfd1c3e93ee6d16241c5555532b18a3f53d21eb355e0a2acd3f7c93147"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publisher_router.py",
+      "source": "Paperdownload/publisher_router.py",
+      "bytes": 27574,
+      "sha256": "a6955968a7ee648e8a8205b4dc05a79884ae3c8939371c3183022c9ce1cb59ef"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publisher_setup_check.py",
+      "source": "Paperdownload/publisher_setup_check.py",
+      "bytes": 6414,
+      "sha256": "1612856d120cc587c81433c1bc933f8b9a101336ae3cb0fa95b5b265efd8c9d6"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publishers/__init__.py",
+      "source": "Paperdownload/publishers/__init__.py",
+      "bytes": 2739,
+      "sha256": "64feae12b70bcc05668a55886d3a0ed287ebf1468ae5ea42d5d463aa9d87ac8b"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publishers/base.py",
+      "source": "Paperdownload/publishers/base.py",
+      "bytes": 52799,
+      "sha256": "11300518a6bba307694ac5cf3c374905733703efbddc655b946f4be953157eed"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publishers/elsevier_adapter.py",
+      "source": "Paperdownload/publishers/elsevier_adapter.py",
+      "bytes": 2092,
+      "sha256": "9a5a26035fe986c7a6c86461e271799b8f37c595d386581b0d72e98393cb79ca"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publishers/oa_adapter.py",
+      "source": "Paperdownload/publishers/oa_adapter.py",
+      "bytes": 13061,
+      "sha256": "9b5df395e2b1f03ac657aa26236221795772075db633db2488f8ce852d0743cf"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publishers/springer_adapter.py",
+      "source": "Paperdownload/publishers/springer_adapter.py",
+      "bytes": 27791,
+      "sha256": "9baec6e45778f1a414f620ccab02fdee95797dbee04f877a2814c981c7933ce4"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/publishers/wiley_adapter.py",
+      "source": "Paperdownload/publishers/wiley_adapter.py",
+      "bytes": 11324,
+      "sha256": "98c661986523ae6f6fdad4658f7472eede8bbb2f2c847798d3e7e812661f1c2c"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/pubmed_fulltext_binding.py",
+      "source": "Paperdownload/pubmed_fulltext_binding.py",
+      "bytes": 4900,
+      "sha256": "d5c74e9d319b4199121cf9b33ec1858f9e53a1220a32442132422431bd2260c0"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/workflow.example.json",
+      "source": "Paperdownload/workflow.example.json",
+      "bytes": 1140,
+      "sha256": "e15aeca9f2c724df6cccc38735383e9272d2d3e553fcf919f9b6e49a2fae0ef3"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/workflow_defaults.py",
+      "source": "Paperdownload/workflow_defaults.py",
+      "bytes": 2732,
+      "sha256": "f3223097a89b02f1e207a0a0607ee458efde20dff057924c636705af3ca542e2"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/zotero_candidate_lookup.py",
+      "source": "Paperdownload/zotero_candidate_lookup.py",
+      "bytes": 7124,
+      "sha256": "68c0a98a998a2586724099e5d99b38de2e83f2cd0903c3e8b74eebd4c34b2239"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/zotero_credentials.py",
+      "source": "Paperdownload/zotero_credentials.py",
+      "bytes": 3381,
+      "sha256": "2a0c077404226e85101fe1c87047fd3d6ff575b2f45501bc025426dba6ff235b"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/zotero_filing.py",
+      "source": "Paperdownload/zotero_filing.py",
+      "bytes": 60458,
+      "sha256": "f4ba5cc63021e9ffa787204ea2bb88213a7b1db75c8810305654a4cafdab2f2f"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/zotero_filing_queue.py",
+      "source": "Paperdownload/zotero_filing_queue.py",
+      "bytes": 21333,
+      "sha256": "e510daf5b32b344bd31208cae862bf33b671fc59dafdbcf6a6f2baaf48f23602"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/zotero_local_api.py",
+      "source": "Paperdownload/zotero_local_api.py",
+      "bytes": 24799,
+      "sha256": "bc76baa0e7ddd4c914062ef4e45e54fd811b1876f6919451e0d364daa1f9c0f0"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/zotero_preflight.py",
+      "source": "Paperdownload/zotero_preflight.py",
+      "bytes": 13853,
+      "sha256": "3f40ec249938dd318e5d1eae5b3c1410698da2a312a6f045f6bb816fbfabdba2"
+    },
+    {
+      "path": "src/papertrail/_legacy/Paperdownload/zotero_topics.py",
+      "source": "Paperdownload/zotero_topics.py",
+      "bytes": 4519,
+      "sha256": "b2b50e9238c89e4d0f8a5f2e645c76aa34cf74714f179984953bbb9217dc6690"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/bundle_materials.py",
+      "source": "RAGFlow/scripts/bundle_materials.py",
+      "bytes": 28697,
+      "sha256": "7e918ca9f39463ad418d8299479ef72a8cc03ebfc3a49edbdb56deb189d0bc44"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/docx_methods_source.py",
+      "source": "RAGFlow/scripts/docx_methods_source.py",
+      "bytes": 19913,
+      "sha256": "b1439bcafaaf90c3041e880c2b6cea7cfa30343bfb98bcd081f1eef33dfbc1e7"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/handoff_saved_download.py",
+      "source": "RAGFlow/scripts/handoff_saved_download.py",
+      "bytes": 23251,
+      "sha256": "0ad3b97e8297b3ba44925cdec338d2e5515611f791f4b0f1d101406ffaa721ef"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/import_prepared_queue.py",
+      "source": "RAGFlow/scripts/import_prepared_queue.py",
+      "bytes": 15251,
+      "sha256": "47ad2246a3f7c38f420939ed96ef931be6d64b35ca22c41802f985b5d29a545c"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/jats_adapter.py",
+      "source": "RAGFlow/scripts/jats_adapter.py",
+      "bytes": 35772,
+      "sha256": "d0e51340706d4f9f04ffa07be88de39e4b488b61a19afabfd41705d9e41350ed"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/jats_import_contract.py",
+      "source": "RAGFlow/scripts/jats_import_contract.py",
+      "bytes": 3743,
+      "sha256": "07ede5ca94466b95271e69e2202eef6eb816bde56cceb893816cc34d8ed78833"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/job_scope.py",
+      "source": "RAGFlow/scripts/job_scope.py",
+      "bytes": 847,
+      "sha256": "f61fa798c3482686f6de65e51561ab62c2e0a5eccfe37b2b828e31845aa66275"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/local_pdf_pipeline.py",
+      "source": "RAGFlow/scripts/local_pdf_pipeline.py",
+      "bytes": 8858,
+      "sha256": "f49817eaf543cfdfd93c257e6fa302b7b93ed52dd460f8c41f01998bfea2592c"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/mineru_adapter.py",
+      "source": "RAGFlow/scripts/mineru_adapter.py",
+      "bytes": 21911,
+      "sha256": "7152ffb9c361f56fd07918bd3e167839a26f57c5ba7213747b0a7538da900004"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/mineru_formula_integrity.py",
+      "source": "RAGFlow/scripts/mineru_formula_integrity.py",
+      "bytes": 3595,
+      "sha256": "af6d3271afbc57de814b3679bc5f4cf069dab4e1a46c3cbd72901ac0da5b9727"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/mineru_v1_convert.py",
+      "source": "RAGFlow/scripts/mineru_v1_convert.py",
+      "bytes": 12421,
+      "sha256": "38aa164c8f688a75038b95ad354e1f964d2b6556ce3e70f77cb798e9e7d41a3b"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/paper_provenance_projection.py",
+      "source": "RAGFlow/scripts/paper_provenance_projection.py",
+      "bytes": 13632,
+      "sha256": "531ddce3dcb50b85a03fa83758ea0eb00763c41e0107d196b7e4929eedaded16"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/prepare_chunks.py",
+      "source": "RAGFlow/scripts/prepare_chunks.py",
+      "bytes": 18111,
+      "sha256": "3bb919eef8a441802401d002812150d8255eda01f8628b4247a9c6deda985fea"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/process_saved_queue.py",
+      "source": "RAGFlow/scripts/process_saved_queue.py",
+      "bytes": 13753,
+      "sha256": "af31af96ff609fd1f9b0a28cb4b3dd8cfc03042b3d9dfea0755ac4b2df4ad169"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/ragflow_prechunk_import.py",
+      "source": "RAGFlow/scripts/ragflow_prechunk_import.py",
+      "bytes": 23905,
+      "sha256": "11a9ce131769ed3958dc7f9b66f709f68e686288480af28b6063124b121a8073"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/ragflow_retrieve.py",
+      "source": "RAGFlow/scripts/ragflow_retrieve.py",
+      "bytes": 23507,
+      "sha256": "fccd4431d4c1d57ad71ba4a94d128fbd6da64b54790eeea71bfa1a9ee9af14e2"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/run_research_update_cycle.py",
+      "source": "RAGFlow/scripts/run_research_update_cycle.py",
+      "bytes": 20317,
+      "sha256": "2d9446941e7c7fbf27fa3c8b20ab047eaf7ad321a0e8e9c70b54ab377a0ab3eb"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/structure_aware_chunker.py",
+      "source": "RAGFlow/scripts/structure_aware_chunker.py",
+      "bytes": 27373,
+      "sha256": "d1088b50cb7438358ccad611656087d23d6fa03617d6f87e1cc5d167239a34e8"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/unified_retrieval.py",
+      "source": "RAGFlow/scripts/unified_retrieval.py",
+      "bytes": 11177,
+      "sha256": "ab39ecea1ae15384bfc05d5d62e736b7db2a8dc45ae0787b07b33bab528aad1a"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/windows_path_io.py",
+      "source": "RAGFlow/scripts/windows_path_io.py",
+      "bytes": 1238,
+      "sha256": "c8e19f92ce695691f90bc434d1b73ffa02267d1da285e61676e192f44d8493c7"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/workflow_configuration.py",
+      "source": "RAGFlow/scripts/workflow_configuration.py",
+      "bytes": 5524,
+      "sha256": "c9126d27b7abc3d57e678ab254f2ede5184c65903237a63270fff5d1f0699bec"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/zotero_mineru_batch.py",
+      "source": "RAGFlow/scripts/zotero_mineru_batch.py",
+      "bytes": 15584,
+      "sha256": "5c26f4a8aa66c133c1be78fe2abb05e6617e44343262adc53226002b8719f1de"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/zotero_scope_materials.py",
+      "source": "RAGFlow/scripts/zotero_scope_materials.py",
+      "bytes": 13638,
+      "sha256": "b1972e05c9bded8dcb2939fd890645f5115281dd9e1648f5d72e09318f32996f"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/zotero_scope_online.py",
+      "source": "RAGFlow/scripts/zotero_scope_online.py",
+      "bytes": 25470,
+      "sha256": "a09b2cfea712220c4342d53b6ff213c45cfb6c3f53ac51ea539ecee5daefd61b"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/zotero_scope_processing.py",
+      "source": "RAGFlow/scripts/zotero_scope_processing.py",
+      "bytes": 37200,
+      "sha256": "7f2c2f16271a0fdba71242be0b98d9baaaab5020060fb71dcabfb3b2b0b8a55f"
+    },
+    {
+      "path": "src/papertrail/_legacy/RAGFlow/scripts/zotero_scope_workflow.py",
+      "source": "RAGFlow/scripts/zotero_scope_workflow.py",
+      "bytes": 42779,
+      "sha256": "41610c992a27ca1f1f4033849f58ba636f17ead7b87b2e04e90dc26e22f1c4a5"
+    },
+    {
+      "path": "src/papertrail/_legacy/institution/acceptance_record.py",
+      "source": "institution/acceptance_record.py",
+      "bytes": 7984,
+      "sha256": "b2d0236377a47bb88c5886334aaf7983ef3d966e3e5dc0f38d2d82a6cb708a60"
+    },
+    {
+      "path": "pyproject.toml",
+      "source": "public_release/pyproject.toml",
+      "bytes": 784,
+      "sha256": "ccf0d3c8bce2324329d670981f41deb4480224274f90240b313807e3c08e1b2c"
+    },
+    {
+      "path": "README.md",
+      "source": "public_release/README.md",
+      "bytes": 8628,
+      "sha256": "4ebdd0c0544c6dd43129b6a5e2449549cfda17da656767d5993185fb5c8d2c41"
+    },
+    {
+      "path": ".gitignore",
+      "source": "public_release/.gitignore",
+      "bytes": 198,
+      "sha256": "c30398c70947be12fbec62a8009c3b6b00d5cc1d367500d768e29a7dc72d36a1"
+    },
+    {
+      "path": "AGENTS.md",
+      "source": "public_release/AGENTS.md",
+      "bytes": 1786,
+      "sha256": "24c512b1d8d609f4b40052273c8c80ccbd15a5d6de92eaa78e46d51664b95973"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "source": "public_release/CONTRIBUTING.md",
+      "bytes": 1621,
+      "sha256": "2090150c9bcc82b8f2dd8f31e5733c746bd484731307436304492b039733e003"
+    },
+    {
+      "path": "LICENSE",
+      "source": "public_release/LICENSE",
+      "bytes": 1080,
+      "sha256": "372669b09fb8a45bcd8178575ed9e608cced995ced79cbc70a1671e19b0f44a8"
+    },
+    {
+      "path": "LICENSING.md",
+      "source": "public_release/LICENSING.md",
+      "bytes": 3280,
+      "sha256": "3c388eae33bffaf934e138b62285caf4bce857eeac8b357f16887324d9e96b48"
+    },
+    {
+      "path": "src/papertrail/__init__.py",
+      "source": "public_release/src/papertrail/__init__.py",
+      "bytes": 103,
+      "sha256": "75fc8b5ddc3a6a981089da757dd02783d2fc2d651be17948a3645ac9a72938e2"
+    },
+    {
+      "path": "src/papertrail/__main__.py",
+      "source": "public_release/src/papertrail/__main__.py",
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "src/papertrail/cli.py",
+      "source": "public_release/src/papertrail/cli.py",
+      "bytes": 5237,
+      "sha256": "06dbeee4b0501803094e9395a85a91111e5adc7fc9fa5a16b49275ab8c97710b"
+    },
+    {
+      "path": "src/papertrail/demo.py",
+      "source": "public_release/src/papertrail/demo.py",
+      "bytes": 3449,
+      "sha256": "4a7b7e38fdb40e96b1db3987e8c0bac9428cab58b0b5a0dcb14dfb582df2cfea"
+    },
+    {
+      "path": "src/papertrail/fixtures/canonical.json",
+      "source": "public_release/src/papertrail/fixtures/canonical.json",
+      "bytes": 3046,
+      "sha256": "023e5d06257d1aa71e079411ad942becf8e4d8b4ef8700a81dc08eeb0e5472f8"
+    },
+    {
+      "path": "src/papertrail/fixtures/synthetic.pdf",
+      "source": "public_release/src/papertrail/fixtures/synthetic.pdf",
+      "bytes": 859,
+      "sha256": "61cd95c4243056c1b86376bda31a8367dda62a2d7f10aa0749f30752b0684322"
+    },
+    {
+      "path": "tests/test_candidate.py",
+      "source": "public_release/tests/test_candidate.py",
+      "bytes": 11042,
+      "sha256": "f2ab3f459ac477dbd111524b4d645e3fb8650ed114b7bad56a1a4343705093b3"
+    },
+    {
+      "path": "tools/check_public_content.py",
+      "source": "public_release/tools/check_public_content.py",
+      "bytes": 3664,
+      "sha256": "72a9ffc85e1af2ca4274278a3c3f87e0701abcf63f5b884501ea6ed3c3667af2"
+    },
+    {
+      "path": ".agents/skills/literature-retrieval/SKILL.md",
+      "source": "public_release/.agents/skills/literature-retrieval/SKILL.md",
+      "bytes": 1724,
+      "sha256": "ef53223668d37bc831480664c0cf1c92e7b165ae9724c48fd5d1c51b1a334b8f"
+    },
+    {
+      "path": ".agents/skills/md-literature-organizer/SKILL.md",
+      "source": "public_release/.agents/skills/md-literature-organizer/SKILL.md",
+      "bytes": 1463,
+      "sha256": "1f32734dd81b8396e09d5a4fca99828af1629073cce01c96d79b85a105a87226"
+    },
+    {
+      "path": ".agents/skills/mineru-paper-knowledge-base/SKILL.md",
+      "source": "public_release/.agents/skills/mineru-paper-knowledge-base/SKILL.md",
+      "bytes": 1626,
+      "sha256": "9f706cf11bf82142b5f64685c50862c42cb2a516a35518148dd1c3621a37d010"
+    },
+    {
+      "path": ".agents/skills/paper-to-zotero/SKILL.md",
+      "source": "public_release/.agents/skills/paper-to-zotero/SKILL.md",
+      "bytes": 1822,
+      "sha256": "3d57554de8c96de3ad6d2bee0748ab32e7b773960dcce56339b7cae5e4b4a378"
+    },
+    {
+      "path": ".agents/skills/pdf-supplement-fetch/SKILL.md",
+      "source": "public_release/.agents/skills/pdf-supplement-fetch/SKILL.md",
+      "bytes": 1569,
+      "sha256": "3adee577af517b5ff4f8a26bfce7880150052335f466e4fc2d75392cacaf4be5"
+    },
+    {
+      "path": ".github/workflows/offline-tests.yml",
+      "source": "public_release/.github/workflows/offline-tests.yml",
+      "bytes": 1834,
+      "sha256": "6fddee084ac9f98e2cbe637b279774b097dc28194ea40024ad38ac00fba1df2b"
+    },
+    {
+      "path": "docs/WORKFLOW.md",
+      "source": "public_release/docs/WORKFLOW.md",
+      "bytes": 5667,
+      "sha256": "14b79de507d39e98528e6dec0fbe6f56e298799460b2619c964c7d3ff2d06bfb"
+    }
+  ]
+}

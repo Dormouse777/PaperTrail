@@ -1,0 +1,71 @@
+{
+  "oa": {
+    "publisher_names": [],
+    "doi_prefixes": [],
+    "api_domains": ["pmc-oa-opendata.s3.amazonaws.com"],
+    "oa_pdf_domains": ["pmc-oa-opendata.s3.amazonaws.com"],
+    "license_status": "file_level_required",
+    "permission_evidence": "https://pmc.ncbi.nlm.nih.gov/tools/developers/",
+    "endpoint_verified": true,
+    "rate_limit": {"interval_seconds": 5, "per_minute": 10, "per_day": 100}
+  },
+  "elsevier": {
+    "publisher_names": ["Elsevier", "Elsevier BV", "Cell Press"],
+    "doi_prefixes": ["10.1016"],
+    "api_domains": ["api.elsevier.com"],
+    "oa_pdf_domains": [],
+    "credential_env": "ELSEVIER_API_KEY",
+    "license_status": "pending",
+    "permission_evidence": null,
+    "endpoint_verified": true,
+    "endpoint_documentation": "https://dev.elsevier.com/documentation/ArticleRetrievalAPI.wadl",
+    "rate_limit": {"interval_seconds": 5, "per_minute": 10, "per_day": 100}
+  },
+  "springer_nature": {
+    "publisher_names": ["Springer Nature", "Springer", "Nature Publishing Group", "BioMed Central"],
+    "doi_prefixes": ["10.1038", "10.1007", "10.1186"],
+    "api_domains": ["api.springernature.com"],
+    "oa_pdf_domains": [],
+    "credential_env": "SPRINGER_NATURE_API_KEY",
+    "license_status": "pending",
+    "permission_evidence": null,
+    "endpoint_verified": false,
+    "endpoint_documentation": "https://dev.springernature.com/docs/api-endpoints/fulltext-api/",
+    "jats_product_verified": false,
+    "jats_product_evidence": "https://dev.springernature.com/docs/api-endpoints/fulltext-api/",
+    "note": "独立JATS XML程序接口已本地实现；特别协议/KEY与METRIC/实站未核定，订阅pending且产品执行门关闭；PDF endpoint未核定",
+    "rate_limit": {"interval_seconds": 5, "per_minute": 10, "per_day": 100}
+  },
+  "wiley": {
+    "publisher_names": ["Wiley", "John Wiley & Sons", "Wiley-Blackwell"],
+    "doi_prefixes": ["10.1002", "10.1111"],
+    "api_domains": ["api.wiley.com"],
+    "oa_pdf_domains": [],
+    "credential_env": "WILEY_TDM_TOKEN",
+    "license_status": "pending",
+    "permission_evidence": null,
+    "endpoint_verified": true,
+    "endpoint_documentation": "https://github.com/WileyLabs/tdm-client/blob/main/src/wiley_tdm/tdm_client.py",
+    "rate_limit": {"interval_seconds": 10, "per_minute": 6, "per_day": 100},
+    "binary_redirect_verified": false,
+    "binary_redirect_policy": {
+      "enabled": false,
+      "target_hosts": [],
+      "permission_evidence": null,
+      "allow_signed_query": false,
+      "max_hops": 1
+    },
+    "note": "安全单跳已本地实现；生产未核定精确二进制域名/许可，策略关闭且订阅pending，不进行真实下载"
+  },
+  "aaas": {
+    "publisher_names": ["American Association for the Advancement of Science", "AAAS"],
+    "doi_prefixes": ["10.1126"],
+    "api_domains": [],
+    "oa_pdf_domains": [],
+    "license_status": "pending",
+    "permission_evidence": null,
+    "endpoint_verified": false,
+    "rate_limit": {"interval_seconds": 5, "per_minute": 10, "per_day": 100},
+    "note": "订阅内容人工处理；OA须独立文件级许可和获准来源验证"
+  }
+}

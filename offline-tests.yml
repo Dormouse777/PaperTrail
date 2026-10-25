@@ -1,0 +1,50 @@
+name: Installed offline tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows-python:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Build the selected source tree
+        shell: pwsh
+        run: |
+          python tools/check_public_content.py .
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m pip wheel --no-deps . --wheel-dir "$env:RUNNER_TEMP/wheels"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Install into a new virtual environment
+        shell: pwsh
+        run: |
+          python -m venv "$env:RUNNER_TEMP/install-venv"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $wheel = Get-ChildItem -LiteralPath "$env:RUNNER_TEMP/wheels" -Filter 'papertrail_literature-*.whl'
+          if (@($wheel).Count -ne 1) { throw 'Expected one project wheel' }
+          & "$env:RUNNER_TEMP/install-venv/Scripts/python.exe" -m pip install $wheel.FullName
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Test installed commands outside the source tree
+        shell: pwsh
+        working-directory: ${{ runner.temp }}
+        run: |
+          $python = "$env:RUNNER_TEMP/install-venv/Scripts/python.exe"
+          & $python -I -B -m unittest discover -s "$env:GITHUB_WORKSPACE/tests" -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          & $python -I -B -m papertrail demo
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          & $python -I -B -m pip check
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
