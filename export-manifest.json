@@ -466,6 +466,12 @@
       "sha256": "c30398c70947be12fbec62a8009c3b6b00d5cc1d367500d768e29a7dc72d36a1"
     },
     {
+      "path": ".gitattributes",
+      "source": "public_release/.gitattributes",
+      "bytes": 162,
+      "sha256": "3dd9558774477b624b1063e14181f0e2b3922cf23faf52fdc997b9845bb3edd6"
+    },
+    {
       "path": "AGENTS.md",
       "source": "public_release/AGENTS.md",
       "bytes": 1786,

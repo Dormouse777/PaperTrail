@@ -1,0 +1,4 @@
+# Export manifests and provenance hashes describe exact source bytes.
+# Preserve those bytes even when a Windows user enables core.autocrlf.
+* -text
+*.pdf binary
